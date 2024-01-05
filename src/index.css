@@ -1,0 +1,12 @@
+#root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}

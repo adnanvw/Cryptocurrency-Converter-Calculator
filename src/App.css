@@ -1,0 +1,95 @@
+/* CryptoConverter.css */
+body {
+    font-family: 'Nunito';
+    background-color: #f2f2f2;
+    margin: 0;
+  }
+  
+  .header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .crypto-converter {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 5px double black;
+  }
+  
+  .crypto-converter h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 1px;
+    color: darkred;
+  }
+  
+  label {
+    /* margin-bottom: 10px; */
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input,
+  select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    transition: border-color 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #3498db;
+  }
+  
+  select {
+    margin-top: 5px;
+  }
+  
+  button {
+    margin: 20px 0;
+    padding: 14px 24px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (min-width: 768px) {
+    /* Responsive styles for tablets and larger screens */
+    .crypto-converter {
+      max-width: 600px;
+    }
+  
+    input,
+    select {
+      width: calc(50% - 12px);
+      margin-right: 12px;
+    }
+  }
+  
